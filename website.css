@@ -1,0 +1,149 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #219ebc;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px; /* Space between image and text */
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    .logo-img {
+      height: 80px; /* Adjust as needed */
+      width: auto;
+      padding-left:10px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li {
+      display: inline;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+
+    .nav-links a:hover {
+      background-color: #0077b6;
+    }
+
+    /* Responsive for small screens */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+      }
+    }
+
+
+   .container {
+    background-color: #e9ecef;
+    width: 100%;
+  
+   }
+
+   #services_button {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border-style: solid;
+    text-align: center;
+
+    
+   }
+
+
+   #services_button:hover {
+    transition: background 0.3s;
+    background-color: #adb5bd;
+  }
+  
+  .container2 {
+  margin:0px;
+  text-align:center;
+  background-color: #e9ecef;
+  height:23cm;
+  }
+
+  .info1 {
+    border-style:groove;
+    border-width: thick;
+  }
+
+  .info2 {
+    border-style:groove;
+    border-width:thick;
+  }
+
+
+  .info3 {
+    border-style:groove;
+    border-width: thick;
+  }
+
+  .content1 {
+    text-align:left;
+  }
+  .content2 {
+    text-align:left;
+  }
+
+  .content3 {
+    text-align: left;
+  }
+
+
+  .notes {
+    padding-left:5px; 
+    font-size:20px; 
+    background-color: #e9ecef;
+  }
+
+
+
+  #contact_button {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border-style: solid;
+    text-align: center;
+    
+
+    
+   }
+
+
+   #contact_button:hover {
+    transition: background 0.3s;
+    background-color: #adb5bd;
+  }
+
+  

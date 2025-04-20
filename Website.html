@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WebDev</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="website.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <style>
+          .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between image and text */
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-img {
+  height: 80px; /* Adjust as needed */
+  width: auto;
+};
+
+.main_content {
+    
+    height:20px;
+    width: 100%;
+
+}
+
+#coding_img {
+  height: 23cm;
+  width: 100%;
+  opacity: 60%;
+};
+
+
+
+
+  
+
+
+
+        </style>
+    </head>
+    <body>
+        <!--This is to create a navbar-->
+        <nav>
+            <div class="logo">
+              <a href="Website.html">
+              <img src="website.png" alt="Logo" class="logo-img">
+              </a>
+              <span style="color:white;">WEBDEV</span>
+            </div>
+            <ul class="nav-links">
+              <li><a href="Website.html">Home</a></li>
+              <li><a href="About_us.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        
+        
+
+
+        <div class="main-content">
+            <img src="coding.jpeg" id="coding_img">
+            <div class="company_name" style="color:white;position:absolute;top:50%;left:50%; transform: translate(-50%,-50%); padding-top: 20px; font-size:75px; font-weight:bold;">WEBDEV</div>
+            <div style="color:white;position:absolute;top:50%;left:50%; transform: translate(-50%,-50%); padding-top: 200px; font-size:30px; text-align: center;">Creating a Website that Meets your Needs!</div>
+        </div>
+
+
+
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="goal">
+                <br>
+                <div class="purpose">
+                  <a href="https://storyset.com/illustration/search-engines/bro">
+                    <img src="storyset.png" height="250px" id="storyset_img">
+                  </a>
+                  <h3 style="margin-top:-20px;">What do we do?</h3><br>
+                  <p style="text-align: justify; font-size: 18px; width:50%; transform: translate(50%,0)">Websites are very powerful tools. They're the first impression a client gets when they search up your business. They can also create a better image of your company: A startup may appear as if it's been running for years, a struggling business may seem like it's thriving and a successful company may look even more succesful.  At WEBDEV, we know the importance of buidling a proper website. That's why we ensure that we build a perfectly responsive website tailored to your requirements. 100% satisfaction guaranteed or our name isn't WEBDEV.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="goal">
+                <br>
+                <div class="purpose">
+                  <a href="https://storyset.com/people">                 
+                    <img src="people.png" height="225px" id="storyset2_img">
+                  </a>
+                  <h3 style="margin-top:-3px;">How are we different from others?</h3><br>
+                  <p style="text-align: justify; font-size: 18px; width:50%; transform: translate(50%,0)">At WEBDEV, we want to ensure that your demands are fully met and that we go above and beyond the quality you were initially expecting. In fact, we've developped our own equation: 10 x price = quality. You've read that right. On top of this, we will give you regular updates on how your website is coming along. In this way, we can make any desired changes conveniently. Additionally, we can schedule calls with you if you want live feedback on your website or if you want to make specific changes. Once again, 100% satisfaction guaranteed or our name isn't WEBDEV. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <input type="button" value="Go to Services" id="services_button" >
+          <br>
+          <br>
+
+        </div>
+         
+        
+
+          
+          
+
+        
+
+        
+    </body>
+    <script>
+      document.getElementById("services_button").onclick = function () {
+        location.href = "services.html";
+    };
+        </script>
+
+
+</html>
